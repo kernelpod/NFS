@@ -1,0 +1,10 @@
+- hosts: node 
+  remote_user: root
+  gather_facts: false
+  tasks:
+  - name: 解压二进制包
+    unarchive: src=node_exporter-0.18.1.linux-amd64.tar.gz dest=/usr/local/ 
+  - name: 分发配置文件
+    copy: src=node_exporter.service dest=/usr/lib/systemd/system/
+  - name: 确保服务运行
+    service: name=node_exporter state=started

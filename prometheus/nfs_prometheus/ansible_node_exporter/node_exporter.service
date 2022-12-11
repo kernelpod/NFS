@@ -1,0 +1,11 @@
+[Unit]
+Description=https://prometheus.io
+
+[Service]
+Restart=on-failure
+ExecStart=/usr/local/node_exporter-0.18.1.linux-amd64/node_exporter \
+          --collector.systemd \
+          --collector.systemd.unit-whitelist=(docker|kubelet|kube-proxy).service
+
+[Install]
+WantedBy=multi-user.target
