@@ -381,8 +381,8 @@ prometheus           NodePort    10.104.140.107   <none>        9090:30090/TCP  
 
 # 效果图
 
-![K8S工作节点监控效果图](C:\Kubernetes\NFS\prometheus\kw.png)
-![K8S集群资源监控效果图](C:\Kubernetes\NFS\prometheus\ks.png)
+![K8S工作节点监控效果图](prometheus/kw.png)
+![K8S集群资源监控效果图](prometheus/ks.png)
 
 
-![K8S资源对象状态监控效果图](C:\Kubernetes\NFS\prometheus\kp.png)
+![K8S资源对象状态监控效果图](prometheus/kp.png)
