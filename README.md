@@ -2,6 +2,12 @@
 
 
 
+[github地址](https://github.com/life-pod/NFS)
+
+
+
+
+
 ## kubernetes集群环境
 
 
