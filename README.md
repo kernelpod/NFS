@@ -339,7 +339,7 @@ E0602 05:09:29.906093       1 controller.go:1004] provision "kube-system/prometh
 ````
 http://192.168.31.10:30090/
 ````
-![prometheus](../img/prometheus/prometheus.png)
+![prometheus](./prometheus/prometheus.png)
 
 ## 部署grafana
 ```
@@ -383,12 +383,38 @@ service/kube-state-metrics created
 prometheus           NodePort    10.104.140.107   <none>        9090:30090/TCP           24m
 [root@kmaster prometheus]# 
 ```
-![](prometheus/ds.png)
+
+
+![](./prometheus/ds.png)
+
+
+
+
+
+
 
 # 效果图
 
-![K8S工作节点监控效果图](prometheus\kw.png)
-![K8S集群资源监控效果图](prometheus\ks.png)
+
+![K8S工作节点监控效果图](./prometheus\kw.png)
+![K8S集群资源监控效果图](./prometheus\ks.png)
 
 
-![K8S资源对象状态监控效果图](prometheus\kp.png)
+=======
+
+
+
+![K8S资源对象状态监控效果图](./prometheus/kp.png)
+
+![K8S工作节点监控效果图](./prometheus/kw.png)
+![K8S集群资源监控效果图](./prometheus/ks.png)
+
+![K8S资源对象状态监控效果图](./prometheus/kp.png)
+
+
+
+
+
+![](./prometheus\K8S INGRESS NGINX.png)
+
+>>>>>>> ed0af8de53b3193e71356cd2781a3204ce527001
